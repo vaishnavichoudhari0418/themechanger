@@ -26,6 +26,5 @@ function enablelight(){
     button.classList.remove("dark-btn");
     const image = document.getElementById("main-product-image");
     image.classList.add("light-img");
-    image.classList.remove("dark-img");
-   
+    image.classList.remove("dark-img"); 
 }
