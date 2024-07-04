@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANNEL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  id="main">
+    <div class="container" >
+        <div class="theme-selector-container">
+            <img src="./img/sun.png" class="sun-img" id="sun-img" onclick="enablelight()">
+            <img src="./img/darkmode.png" class="moon-img" id="moon-img" onclick="enabledark()">
+        </div>
+        <div class="main" id="inner-cont">
+            <img src="./img/img5.avif" class="product-img" id="main-product-image" >
+            <aside class="product-info">
+                <h1 class="product-title" >CHANNEL<img src="./img/logo.jpg" height="30px"><br><br>HYDRA BEAUTY MICRO SÉRUM</h1>
+                <hr>
+                Intense Replenishing Hydration<br/>
+                <b class="price">$99</b><br/><br/>
+                <button class="add-to-cart" id="btn"><strong> ADD TO CART</strong></button>
+                <hr>
+               <p> 72 total reviews<img src="https://cdn-icons-png.flaticon.com/128/992/992001.png" height="60px" width="60px">4.9/5<br>
+               </p><hr>
+                <b>DESCRIPTION</b></p>
+                <ul class="DESCRIPTION">
+                <li>A water-light serum that drenches skin with a revolutionary infusion of hydration.</li> 
+                <li>Up to 24 hours* of continuous moisturizing benefits leaves skin deeply replenished, smooth and glowing with youth.</li> 
+                <li>Hydration is increased by 33%**, and skin appears intensely plumped by 32%</li> 
+                </ul><br/><br/>   
+                </div>
+            </aside>
+        </div>
+        <div class="img-slider">
+            <img src="./img/img5.avif" class="slider-img" onclick="changeImage('./img/img5.avif')"/>
+            <img src="./img/img1.avif" class="slider-img" onclick="changeImage('./img/img1.avif')"/>
+            <img src="./img/img2.webp" class="slider-img" onclick="changeImage('./img/img2.webp')"/>
+            <img src="./img/img3.webp" class="slider-img" onclick="changeImage('./img/img3.webp')"/>
+            <img src="./img/img4.webp" class="slider-img" onclick="changeImage('./img/img4.webp')"/>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
