@@ -9,7 +9,9 @@ function enabledark(){
     const container = document.getElementById("inner-cont");
     container.classList.add("dark-bg-innercont");
     container.classList.remove("light-bg-innercont");
-
+    const image = document.getElementById("main-product-image");
+    image.classList.add("dark-img");
+    image.classList.remove("light-img");
 
 }
 function enablelight(){
